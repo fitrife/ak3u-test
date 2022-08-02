@@ -179,39 +179,7 @@
   });
 
   /**
-   * benefit Slider
-   */
-  new Swiper(".about-slider", {
-    speed: 400,
-    loop: true,
-    centeredSlides: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false,
-    },
-    slidesPerView: "auto",
-    breakpoints: {
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      575: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 4,
-        spaceBetween: 20,
-      },
-      992: {
-        slidesPerView: 4,
-        spaceBetween: 20,
-      },
-    },
-  });
-
-  /**
-   * benefit Slider
+   * Gallery Slider
    */
   new Swiper(".benefit-slider", {
     speed: 400,
@@ -248,10 +216,10 @@
   });
 
   /**
-   * Initiate benefit lightbox
+   * Initiate gallery lightbox
    */
-  const benefitLightbox = GLightbox({
-    selector: ".benefit-lightbox",
+  const galleryLightbox = GLightbox({
+    selector: ".gallery-lightbox",
   });
 
   /**
